@@ -1,0 +1,39 @@
+/* ExpressionVisualizer.module.css */
+.container {
+  margin-top: 10vh;
+  padding: 2rem;
+  background-color: #1f2937; /* dark gray */
+  color: #e5e7eb; /* light gray */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #f9fafb;
+}
+
+.predefineSection,
+.builderSection {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #374151;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.predefineSection h2,
+.builderSection h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #f9fafb;
+}

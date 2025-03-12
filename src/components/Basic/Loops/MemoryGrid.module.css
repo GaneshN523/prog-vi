@@ -1,0 +1,25 @@
+.memoryGrid {
+    margin-top: 20px;
+    background-color: #2e2e2e; /* Dark gray background */
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+    gap: 2px;
+    margin-top: 10px;
+  }
+  
+  .gridItem {
+    border: 1px solid #555;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    background-color: #444;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  

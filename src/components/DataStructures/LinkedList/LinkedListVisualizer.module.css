@@ -1,0 +1,141 @@
+/* Dark Theme Styling */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .createList, .listSelection, .operations {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    min-width: 320px;
+  }
+  
+  .createList input,
+  .createList select,
+  .opControls input {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #666;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .createList input:focus,
+  .createList select:focus,
+  .opControls input:focus {
+    border-color: #007bff;
+  }
+  
+  .createList button,
+  .opControls button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .createList button:hover,
+  .opControls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .listTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .listTable th, .listTable td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .listTable th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  .opControls {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .listVisual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .node {
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    min-width: 50px;
+  }
+  
+  .pointer {
+    font-size: 22px;
+    color: #00bfff;
+  }
+  
+  .memoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .memoryCell {
+    border: 1px solid #666;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .controls {
+      flex-direction: column;
+    }
+  }

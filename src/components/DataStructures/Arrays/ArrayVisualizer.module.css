@@ -1,0 +1,70 @@
+/* src/components/ArrayVisualizer.module.css */
+.container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .formContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    margin-right: 8px;
+  }
+  
+  .inputField {
+    width: 60px;
+    margin-left: 4px;
+  }
+  
+  .arrayList {
+    margin-bottom: 20px;
+  }
+  
+  .arrayList ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .arrayList li {
+    margin-bottom: 5px;
+  }
+  
+  .arrayButton {
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .activeArrayHeader {
+    margin-bottom: 10px;
+  }
+  
+  .simulationLogContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #f9f9f9;
+  }
+  
+  .clearLogButton {
+    margin-bottom: 10px;
+  }
+  

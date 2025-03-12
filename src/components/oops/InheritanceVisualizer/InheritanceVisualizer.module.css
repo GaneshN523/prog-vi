@@ -1,0 +1,103 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .listSection {
+    margin-top: 15px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .codeBlock {
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+  }
+  
+  .objectState {
+    margin-top: 15px;
+  }
+  
+  .memoryBlock {
+    margin-bottom: 10px;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #444;
+  }
+  
+  .logArea {
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #000;
+    color: #0f0;
+    padding: 10px;
+    font-family: Consolas, monospace;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  
+  .logLine {
+    margin-bottom: 5px;
+  }
+  

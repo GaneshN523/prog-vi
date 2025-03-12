@@ -1,0 +1,52 @@
+/* src/components/SparseMatrixVisualizer.module.css */
+.container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .matrixList {
+    margin-top: 20px;
+  }
+  
+  .matrixList ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .matrixItem {
+    margin-bottom: 5px;
+  }
+  
+  .matrixButton {
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .activeMatrixContainer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .simulationLog {
+    margin-top: 20px;
+  }
+  
+  .logContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #f9f9f9;
+  }
+  
+  .clearLogButton {
+    margin-bottom: 10px;
+  }
+  

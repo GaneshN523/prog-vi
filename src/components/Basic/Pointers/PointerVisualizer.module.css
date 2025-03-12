@@ -1,0 +1,100 @@
+.pointerVisualizerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Left operations panel */
+  .operationsPanel {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    margin-right: 20px;
+    background-color: #1e1e1e;
+  }
+  
+  .tabs {
+    margin-bottom: 15px;
+  }
+  
+  .tabs button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .tabs button:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #007acc;
+    color: white;
+  }
+  
+  .operationContent {
+    margin-top: 10px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .formGroup label {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  /* Right memory grid panel */
+  .memoryPanel {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+  }
+  
+  .memoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .memoryCell {
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 4px;
+    background: #2c2c2c;
+    color: white;
+  }
+  
+  .cellAddress {
+    font-size: 0.8em;
+    color: #bbb;
+    margin-bottom: 4px;
+  }
+  
+  .cellContent {
+    font-size: 0.9em;
+    color: white;
+  }
+  
+  .dereferenceResult {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #007acc;
+    border-radius: 4px;
+    background: #2a3b4f;
+    color: white;
+  }

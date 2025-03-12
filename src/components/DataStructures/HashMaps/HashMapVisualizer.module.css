@@ -1,0 +1,260 @@
+/* HashMapVisualizer.module.css */
+
+/* Global styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hash Map List Panel */
+  .hashMapList {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .hashMapTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .hashMapTable th,
+  .hashMapTable td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+  }
+  .hashMapTable th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  .hashMapTable button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 2px;
+    transition: background 0.3s ease;
+  }
+  .hashMapTable button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Create Hash Map Panel */
+  .createHashMap {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .createHashMap input,
+  .createHashMap select {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  .createHashMap input:focus,
+  .createHashMap select:focus {
+    border-color: #007bff;
+  }
+  .createHashMap button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .createHashMap button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Operations Panel */
+  .operations {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .opControls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .opControls input,
+  .opControls select {
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  .opControls input:focus,
+  .opControls select:focus {
+    border-color: #007bff;
+  }
+  .opControls button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .opControls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Visualization Panel */
+  .visualization {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .bucketGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  .bucketCell {
+    border: 1px solid #666;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .index {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #00bfff;
+  }
+  .entry {
+    font-size: 14px;
+    margin: 3px 0;
+  }
+  .empty {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  /* Low-Level Memory Grid */
+  .memoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
+  .memoryCell {
+    background-color: #252525;
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Operation Log Panel */
+  .operationLog {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .operationLog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .operationLog li {
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+  }
+  .operationLog li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Graph Diagram for high-level view */
+  .graphDiagram {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .vertices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .vertex {
+    display: inline-block;
+  }
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px solid #007bff;
+  }
+  .address {
+    position: absolute;
+    bottom: -15px;
+    font-size: 10px;
+    color: #00bfff;
+  }
+  .edgeList {
+    margin-top: 15px;
+    text-align: center;
+    color: #00bfff;
+  }
+  .adjacencyList {
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .controls {
+      flex-direction: column;
+    }
+  }
+  

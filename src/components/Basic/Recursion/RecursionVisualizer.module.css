@@ -1,0 +1,146 @@
+/* RecursionVisualizer.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Simulation Controls Panel */
+  .simulationControls {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .inputField, select {
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .inputField:focus, select:focus {
+    border-color: #007bff;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Visualization Panel */
+  .visualizationPanel {
+    margin-top: 20px;
+  }
+  
+  /* High-Level Call Tree */
+  .callTree {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    padding: 5px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .step.executed {
+    color: #00bfff;
+  }
+  
+  /* Low-Level Memory (Call Stack) */
+  .callStack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .frame {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .emptyStack {
+    text-align: center;
+    color: #aaa;
+  }
+  
+  /* Operation Log */
+  .operationLog {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .operationLog ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .operationLog li {
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .operationLog li:last-child {
+    border-bottom: none;
+  }
+  

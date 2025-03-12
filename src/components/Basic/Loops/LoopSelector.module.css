@@ -1,0 +1,16 @@
+.selectorLabel {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .selectLoop {
+    margin-left: 10px;
+    background-color: #444;
+    border: 1px solid #555;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  

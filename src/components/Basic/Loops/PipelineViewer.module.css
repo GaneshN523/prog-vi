@@ -1,0 +1,66 @@
+.pipeline {
+    margin-top: 20px;
+    background-color: #2e2e2e;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .header {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .stages {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .stage {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color: #444;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .activeStage {
+    background-color: #007bff;
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  
+  .tokenizer, .binaryConversion {
+    margin-top: 15px;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .tokenizer h4, .binaryConversion h4 {
+    color: #00c8ff;
+    margin-bottom: 5px;
+  }
+  
+  .tokenizer ul, .binaryConversion ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tokenizer li, .binaryConversion li {
+    background-color: #555;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 4px;
+    font-size: 0.9em;
+    word-wrap: break-word;
+  }
+  
+  .bits {
+    font-family: 'Courier New', monospace;
+    color: #ffeb3b;
+  }
+  

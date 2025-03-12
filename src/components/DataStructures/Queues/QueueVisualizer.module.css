@@ -1,0 +1,258 @@
+/* QueueVisualizer.module.css */
+
+/* Global container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Flex container for panels */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Panel for creating a new queue */
+  .createQueue {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .createQueue input,
+  .createQueue select {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .createQueue input:focus,
+  .createQueue select:focus {
+    border-color: #007bff;
+  }
+  
+  .createQueue button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .createQueue button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Panel for displaying existing queues */
+  .queueSelection {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .queueTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .queueTable th,
+  .queueTable td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .queueTable th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  .queueTable button {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 2px;
+  }
+  
+  .queueTable button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Panel for queue operations */
+  .operations {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 2;
+    min-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .opControls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .opControls input {
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .opControls input:focus {
+    border-color: #007bff;
+  }
+  
+  .opControls button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .opControls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Complexity Information Panel */
+  .complexityInfo {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .complexityInfo table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .complexityInfo th,
+  .complexityInfo td {
+    border: 1px solid #666;
+    padding: 10px;
+    color: white;
+  }
+  
+  .complexityInfo th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  /* Visualization Panels */
+  .visualization {
+    margin-top: 20px;
+  }
+  
+  /* High-Level Queue Visualization */
+  .queueVisual {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .node {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    min-width: 60px;
+  }
+  
+  .pointer {
+    font-size: 22px;
+    color: #00bfff;
+  }
+  
+  /* Low-Level Memory Grid */
+  .memoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .memoryCell {
+    background-color: #252525;
+    border: 1px solid #666;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Operation Log Panel */
+  .operationLog {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .operationLog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .operationLog li {
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .operationLog li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .controls {
+      flex-direction: column;
+    }
+  }
+  

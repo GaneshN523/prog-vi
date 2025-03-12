@@ -1,0 +1,47 @@
+/* src/components/ArrayGrid.module.css */
+.arrayGridContainer {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+  }
+  
+  .cell {
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .cellInput {
+    width: 80px;
+    margin-top: 4px;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f88;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  .tableCell {
+    border: 1px solid #000;
+    padding: 10px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .tableInput {
+    width: 80px;
+    margin-top: 4px;
+  }
+  

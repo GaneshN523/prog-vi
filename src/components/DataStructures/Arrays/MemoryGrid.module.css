@@ -1,0 +1,17 @@
+/* src/components/MemoryGrid.module.css */
+.memoryGridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+  }
+  
+  .memoryCell {
+    border: 1px solid #888;
+    padding: 10px;
+  }
+  
+  .memoryRow {
+    margin: 10px 0;
+  }
+  

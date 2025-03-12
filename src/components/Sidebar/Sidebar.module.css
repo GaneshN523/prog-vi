@@ -1,0 +1,116 @@
+.sidebar {
+  position: fixed; /* Fixes the sidebar on the left */
+  top: 10vh; /* Leaves space for the navbar */
+  left: 0;
+  width: 250px;
+  height: 90vh;
+  background-color: #1e1e1e; /* Dark grey background */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the list horizontally */
+  padding: 20px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  scrollbar-width: thin; /* Firefox scrollbar styling */
+  scrollbar-color: #555 #1e1e1e; /* Scrollbar color */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for Webkit (Chrome, Edge, Safari) */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navItem {
+  margin: 12px 0;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #ffffff; /* White text for contrast */
+  padding: 12px 15px;
+  display: block;
+  border-radius: 6px;
+  background-color: #2a2a2a; /* Slightly lighter grey */
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.navItem a:hover {
+  background-color: #444; /* Slightly lighter grey for hover */
+  transform: scale(1.05); /* Smooth zoom effect */
+}
+
+/* Active Link Styling */
+.navItem a.active {
+  background-color: #007bff; /* Highlight active link */
+  color: white;
+  font-weight: 600;
+}
+
+/* ===== Responsive Styles for Mobile ===== */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    top: 0;
+    height: 100vh;
+    left: -250px; /* Hidden by default off-canvas */
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  /* When the sidebar is open */
+  .sidebar.open {
+    left: 0;
+  }
+  
+  /* Toggle button for opening sidebar */
+  .sidebarToggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    z-index: 1100; /* Above sidebar */
+    cursor: pointer;
+  }
+  
+  /* Close button inside sidebar */
+  .sidebarClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+/* Hide the toggle button on larger screens */
+@media screen and (min-width: 769px) {
+  .sidebarToggle {
+    display: none;
+  }
+}

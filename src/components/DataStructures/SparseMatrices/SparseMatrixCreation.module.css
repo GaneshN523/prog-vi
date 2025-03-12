@@ -1,0 +1,39 @@
+/* src/components/SparseMatrixCreation.module.css */
+.creationContainer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .denseCreation,
+  .cooCreation {
+    margin-top: 10px;
+  }
+  
+  .matrixGrid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .matrixRow {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .matrixCell {
+    width: 50px;
+  }
+  
+  .cooTextArea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .createButton {
+    margin-top: 10px;
+  }
+  

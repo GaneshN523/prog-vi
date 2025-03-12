@@ -1,0 +1,162 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #2b2b2b;
+    border-radius: 6px;
+  }
+  
+  .languageSelection {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .attributeCreator, .objectVisualization, .debugSection {
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #333;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input, .select {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+  }
+  
+  .button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .attributeList {
+    margin-top: 15px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+    background-color: #444;
+    color: white;
+  }
+  
+  .codeBlock {
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+  }
+  
+  .memoryBlock {
+    margin-bottom: 10px;
+  }
+  
+  .visualizationSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .highLevel, .lowLevel {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #555;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #3a3a3a;
+  }
+  
+  .accessSection {
+    margin-top: 20px;
+    border-top: 1px dashed #555;
+    padding-top: 15px;
+  }
+  
+  .radioGroup {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  .result {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2b4a2b;
+    border: 1px solid #8ac78a;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .consoleLog {
+    margin-top: 20px;
+  }
+  
+  .logArea {
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #111;
+    color: #0f0;
+    padding: 10px;
+    font-family: Consolas, monospace;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  
+  .logLine {
+    margin-bottom: 5px;
+  }
+  
+  .inheritanceSection {
+    margin-top: 20px;
+    border-top: 1px dashed #555;
+    padding-top: 15px;
+  }
+  
+  .subclassView {
+    margin-top: 10px;
+  }
+  
+  .debugSection ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: white;
+  }

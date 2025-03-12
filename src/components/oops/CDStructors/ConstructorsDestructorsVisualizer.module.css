@@ -1,0 +1,106 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .creationSection,
+  .objectsTableSection,
+  .visualizationSection,
+  .logSection {
+    margin-bottom: 30px;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+  }
+  
+  .selector,
+  .parameterInputs,
+  .copySection {
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .objectsTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .objectsTable th,
+  .objectsTable td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+    background-color: #222;
+    color: white;
+  }
+  
+  .destroyedRow {
+    background-color: #8b0000;
+  }
+  
+  .memoryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .memoryCell {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  .highLevel,
+  .lowLevel {
+    margin-bottom: 20px;
+  }
+  
+  .objectDetails div {
+    margin-bottom: 5px;
+  }
+  
+  .logSection {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .logContainer {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .logMessage {
+    font-family: monospace;
+    margin-bottom: 5px;
+    color: #ddd;
+  }
+  

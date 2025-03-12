@@ -1,0 +1,14 @@
+/* src/components/OperationsPanel.module.css */
+.operationsPanel {
+    margin-top: 20px;
+  }
+  
+  .operationsHeader {
+    margin-bottom: 10px;
+  }
+  
+  .operationButton {
+    margin-bottom: 8px;
+    display: block;
+  }
+  

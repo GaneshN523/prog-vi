@@ -1,0 +1,14 @@
+/* src/components/SparseMatrixMemoryGrid.module.css */
+.memoryGridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .memoryCell {
+    border: 1px solid #888;
+    padding: 10px;
+    width: 150px;
+  }
+  

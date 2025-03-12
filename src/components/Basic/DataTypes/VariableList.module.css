@@ -1,0 +1,34 @@
+/* VariableList.module.css */
+.variableListContainer {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .subHeader {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .variableTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #374151;
+    border: 1px solid #4b5563;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .variableTable th,
+  .variableTable td {
+    padding: 0.75rem;
+    border: 1px solid #4b5563;
+    text-align: center;
+  }
+  
+  .variableTable th {
+    background-color: #4b5563;
+    font-weight: bold;
+  }
+  
