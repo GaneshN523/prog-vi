@@ -37,7 +37,6 @@ Edit
 npm run dev
 This will start the app on http://localhost:5173/ (default Vite port).
 
-🖼️ Screenshots (Add UI Screenshots Here!)
 Code Input	Execution Flow
 Example Screenshot	Example Screenshot
 📜 How It Works
